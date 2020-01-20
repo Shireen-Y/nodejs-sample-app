@@ -6,6 +6,12 @@ driver:
   instance_type: t2.micro
   subnet_id: subnet-0e9b6138ff1ce18f2
   associate_public_ip: true
+  security_group_id: sg-01a141f610124a7b9
+  aws_ssh_key_id: shireen-eng-48-first-key
+
+transport:
+  ssh_key: ~/.ssh/shireen-eng-48-first-key.pem
+
 
 ## The forwarded_port port feature lets you connect to ports on the VM guest via
 ## localhost on the host.
