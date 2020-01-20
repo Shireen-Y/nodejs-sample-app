@@ -18,3 +18,6 @@ chef_version '>= 14.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/nodejs_sample_app'
+
+depends 'nodejs', '~> 5.0.0'
+depends 'apt'
